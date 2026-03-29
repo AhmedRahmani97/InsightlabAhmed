@@ -1,0 +1,227 @@
+# ============================================================
+#  CareerCanvas — Ahmed RAHMANI — Data Analyst
+# ============================================================
+
+baseURL = "https://snorlaxx97.github.io"
+languageCode = "en-us"
+title = "Ahmed Rahmani"
+theme = "careercanvas"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+
+# ── Languages ───────────────────────────────────────────────
+[languages]
+  [languages.en]
+    contentDir = "content/en"
+    languageName = "English"
+    weight = 1
+    [languages.en.params]
+      tagline = "Data Analyst"
+      hero_description = "Passionate Data Analyst based in Casablanca, Morocco. I design BI solutions, build Datamarts & Datawarehouses, and turn raw data into actionable insights."
+      hero_location = "Casablanca, Morocco"
+      collab_tags = ["Power BI", "SQL", "Python", "ETL", "Data Warehouse"]
+
+# ── Build ────────────────────────────────────────────────────
+[build]
+  writeStats = true
+
+# ── Global params ────────────────────────────────────────────
+[params]
+  firstName = "Ahmed"
+  lastName  = "Rahmani"
+  name      = "Ahmed Rahmani"
+  email       = "Ahmed.rahmani2015@gmail.com"
+  profile_image = "/images/profile.jpg"
+  author      = "Ahmed Rahmani"
+  og_image    = "images/profile.jpg"
+  description = "Data Analyst specialised in BI solutions, ETL pipelines and data visualisation — Casablanca, Morocco."
+  hero_location = "Casablanca, Morocco"  
+  tagline   = "Data Analyst" 
+  linkedin_url  = "https://www.linkedin.com/in/arahmani1997/"
+  linkedin_text = "linkedin.com/in/arahmani1997"
+  github_url    = "https://github.com/snorlaxx97"
+  github_text   = "github.com/snorlaxx97"
+  defaultTheme = "dark"
+  customCSS = ["css/hero-light-fix.css"]
+  
+
+
+
+  calendly_url    = ""
+  calendly_height = "700px"
+
+  copyright     = "© 2025 | Ahmed Rahmani"
+  resume_url_en = "/files/cv-ahmed-rahmani.pdf"
+  resume_label  = "View CV"
+
+  sectionPagesMenu  = "main"
+  formspreeendpoint = ""
+  pexelsapikey      = ""
+
+  # ── Social icons ──────────────────────────────────────────
+  [[params.social]]
+    icon = "linkedin-in"
+    url  = "https://www.linkedin.com/in/arahmani1997/"
+
+  [[params.social]]
+    icon = "github"
+    url  = "https://github.com/snorlaxx97"
+
+  # ── Skills ────────────────────────────────────────────────
+  [[params.skills]]
+    name  = "Power BI"
+    level = 90
+
+  [[params.skills]]
+    name  = "SAP BusinessObjects"
+    level = 75
+
+  [[params.skills]]
+    name  = "Talend Open Studio"
+    level = 80
+
+  [[params.skills]]
+    name  = "SSIS"
+    level = 70
+
+  [[params.skills]]
+    name  = "SQL (MySQL · Oracle · SQL Server)"
+    level = 85
+
+  [[params.skills]]
+    name  = "Python"
+    level = 75
+
+  [[params.skills]]
+    name  = "UML / Merise"
+    level = 80
+
+  [[params.skills]]
+    name  = "Java"
+    level = 65
+
+  [[params.skills]]
+    name  = "HTML / CSS / PHP / JavaScript"
+    level = 70
+
+  [[params.skills]]
+    name  = "Laravel / Vue.js"
+    level = 60
+
+  # ── Experience ────────────────────────────────────────────
+  [[params.experience]]
+    company   = "Awarino"
+    location  = "Casablanca, Morocco"
+    role      = "Data Analyst"
+    start     = "July 2022"
+    end       = "Present"
+    bullets   = [
+      "Perform functional analysis of business requirements",
+      "Design and develop end-to-end BI solutions",
+      "Model and implement Datamarts and Datawarehouses",
+      "Build dashboards and reporting tools with Power BI",
+    ]
+
+  [[params.experience]]
+    company   = "Mercure IT"
+    location  = "Casablanca, Morocco"
+    role      = "BI Department Intern"
+    start     = "December 2021"
+    end       = "January 2022"
+    bullets   = [
+      "Created and scheduled ETL jobs with Talend Open Studio",
+      "Data integration, visualisation and analysis",
+      "Connected Oracle databases via Talend–SQL Developer",
+    ]
+
+  [[params.experience]]
+    company   = "OCP El Jadida"
+    location  = "El Jadida, Morocco"
+    role      = "Development Intern (PFE)"
+    start     = "February 2019"
+    end       = "July 2019"
+    bullets   = [
+      "Built a web incident-management application using JEE",
+      "Used Apache Tomcat as application server",
+      "Managed data with PhpMyAdmin / MySQL",
+    ]
+
+  # ── Education ─────────────────────────────────────────────
+  [[params.education]]
+    institution = "Faculté des Sciences et Techniques — Beni Mellal"
+    degree      = "Master in Computer Science (Business Intelligence)"
+    start       = "2019"
+    end         = "2021"
+
+  [[params.education]]
+    institution = "Faculté des Sciences et Techniques — Beni Mellal"
+    degree      = "Licence Technique in Computer Science"
+    start       = "2018"
+    end         = "2019"
+
+  [[params.education]]
+    institution = "Lycée Al Qods — El Jadida"
+    degree      = "Baccalauréat — Sciences Mathématiques A"
+    start       = "2014"
+    end         = "2015"
+
+  # ── Languages ─────────────────────────────────────────────
+  [[params.languages]]
+    name  = "Arabic"
+    level = "Native"
+
+  [[params.languages]]
+    name  = "French"
+    level = "Fluent"
+
+  [[params.languages]]
+    name  = "English"
+    level = "Good"
+
+  # ── Color palettes ────────────────────────────────────────
+  [params.color_palettes]
+    [[params.color_palettes.palette]]
+      name         = "ocean-blue"
+      main_color   = "#1E40AF"
+      second_color = "#3B82F6"
+      third_color  = "#06B6D4"
+
+    [[params.color_palettes.palette]]
+      name         = "slate"
+      main_color   = "#475569"
+      second_color = "#0EA5E9"
+      third_color  = "#F97316"
+
+    [[params.color_palettes.palette]]
+      name         = "data-green"
+      main_color   = "#1E3A5F"
+      second_color = "#10B981"
+      third_color  = "#3B82F6"
+
+  # ── Pexels hero backgrounds ───────────────────────────────
+  [params.pexels]
+    queries = ["data analytics dashboard", "city lights night", "modern office technology"]
+
+# ── Taxonomies ───────────────────────────────────────────────
+[taxonomies]
+  tag = "tags"
+
+# ── Markup ───────────────────────────────────────────────────
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    style = "monokai"
+
+# ── Server headers ───────────────────────────────────────────
+[server]
+  [[server.headers]]
+    for = "/**/*.css"
+    [server.headers.values]
+      Content-Type = "text/css"
+
+# ── Security ─────────────────────────────────────────────────
+[security]
+  [security.funcs]
+    getenv = ['^HUGO_', '^CI$']
