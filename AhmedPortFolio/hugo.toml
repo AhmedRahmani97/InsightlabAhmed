@@ -225,3 +225,29 @@ defaultContentLanguageInSubdir = false
 [security]
   [security.funcs]
     getenv = ['^HUGO_', '^CI$']
+# ── Menu ────────────────────────────────────────────────────
+# ── Menu ────────────────────────────────────────────────────
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "/#about"
+    weight     = 1
+
+  [[menu.main]]
+    identifier = "skills"
+    name       = "Skills"
+    url        = "/#skills"
+    weight     = 2
+
+  [[menu.main]]
+    identifier = "experience"
+    name       = "Experience"
+    url        = "/#experience"
+    weight     = 3
+
+  [[menu.main]]
+    identifier = "contact"
+    name       = "Contact"
+    url        = "/#contact"
+    weight     = 4
