@@ -4,6 +4,7 @@ module.exports = {
     "./layouts/**/*.html",
     "./content/**/*.md"
   ],
+  safelist: ['fade-in-visible'],
   theme: {
     extend: {}
   },

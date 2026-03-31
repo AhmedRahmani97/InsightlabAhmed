@@ -1,0 +1,161 @@
+[aboutMe]
+other = "About Me"
+
+[skills]
+other = "Skills"
+
+[experience]
+other = "Experience"
+
+[contact]
+other = "Contact"
+
+[quickFacts]
+other = "Quick Facts"
+
+[currentRole]
+other = "Current Role"
+
+[education]
+other = "Education"
+
+[specialisation]
+other = "Specialisation"
+
+[interests]
+other = "Interests"
+
+[technologiesTools]
+other = "Technologies and tools I work with on a daily basis"
+
+[myExperience]
+other = "My professional journey"
+
+[connectWithMe]
+other = "Let's connect and talk about data"
+
+[sendMessage]
+other = "Send Message"
+
+[yourName]
+other = "Your Name"
+
+[yourEmail]
+other = "Your Email"
+
+[yourMessage]
+other = "Your Message"
+
+[sending]
+other = "Sending..."
+
+[successMessage]
+other = "Message sent successfully!"
+
+[errorMessage]
+other = "There was an error sending your message."
+
+[more]
+other = "More"
+
+[less]
+other = "Less"
+
+[languages]
+other = "Languages"
+
+[viewResume]
+other = "View Résumé"
+
+[hireMe]
+other = "Hire Me"
+
+[bookMeeting]
+other = "Book Meeting"
+
+[openToWork]
+other = "Open to Work"
+
+[notOpenToWork]
+other = "Currently Employed"
+
+[freelance]
+other = "Available for Freelance"
+
+[latestProjects]
+other = "Latest Projects"
+
+[seeAllProjects]
+other = "See All Projects"
+
+[github]
+other = "GitHub"
+
+[linkedin]
+other = "LinkedIn"
+
+[email]
+other = "Email"
+
+[location]
+other = "Location"
+
+[phone]
+other = "Phone"
+
+[copyright]
+other = "©"
+
+[rightsReserved]
+other = "All rights reserved."
+
+[madeWith]
+other = "Made with"
+
+[by]
+other = "by"
+
+[theme]
+other = "Theme"
+
+[contactFormLabel]
+other = "Contact"
+
+[sendMeAMessage]
+other = "Send Me A Message"
+
+[contactFormLabelNameLabel]
+other = "Your Name"
+
+[contactFormLabelEmailLabel]
+other = "Your Email"
+
+[contactFormLabelSubjectLabel]
+other = "Subject"
+
+[contactFormLabelMessageLabel]
+other = "Your Message"
+
+[contactFormSendBtnLabel]
+other = "Send Message"
+
+[contactInformation]
+other = "Contact Information"
+
+[connectOnLinkedIn]
+other = "Connect on LinkedIn"
+
+[aboutName]
+other = "More about"
+
+[helloIm]
+other = "Hello, I'm"
+
+[getInTouch]
+other = "Get in touch"
+
+[keyAchievements]
+other = "Key Achievements"
+
+[downloadResume]
+other = "Download Resume"

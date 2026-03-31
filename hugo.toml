@@ -2,7 +2,7 @@
 #  CareerCanvas — Ahmed RAHMANI — Data Analyst
 # ============================================================
 
-baseURL = "https://ahmedrahmani97.github.io"
+baseURL = "https://AhmedRahmani97.github.io"
 languageCode = "en-us"
 title = "Ahmed Rahmani"
 theme = "careercanvas"
@@ -39,8 +39,8 @@ defaultContentLanguageInSubdir = false
   tagline   = "Data Analyst" 
   linkedin_url  = "https://www.linkedin.com/in/arahmani1997/"
   linkedin_text = "linkedin.com/in/arahmani1997"
-  github_url    = "https://github.com/snorlaxx97"
-  github_text   = "github.com/snorlaxx97"
+  github_url    = "https://github.com/AhmedRahmani97"
+  github_text   = "github.com/AhmedRahmani97"
   defaultTheme = "dark"
   customCSS = ["css/hero-light-fix.css"]
   
